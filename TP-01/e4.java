@@ -1,13 +1,14 @@
 import java.util.Random;
 
-class quest{
+class e4{
     public static char charAleatorio(){                                 //Gera um número aleatório entre 'a' e 'z' da tabela ASCII
     Random gerador = new Random();
-    char letra = (char)gerador.nextInt(26);
+    gerador.setSeed(4);
+    char letra = (char)gerador.nextInt(27);
     letra+=97;
     return letra;
     }
-   
+    
     public static void charFy(char[] stringVetor, String word){         //Transforma a string em um vetor de caracteres
         for(int i=0; i<word.length(); i++)
             stringVetor[i] = word.charAt(i); 
@@ -19,7 +20,7 @@ class quest{
     char[] vetorAux;
     String frase;
     String fraseFinal = "";
-
+    
     do{
         frase = MyIO.readLine();
         if(!(frase.equals("FIM"))){

@@ -19,7 +19,7 @@ int comparacao(char* fraseNormal, char* fraseInvertida, int tamanho){           
     return flag;
 }
 
-int testeTermino(char* frase){
+int testeTermino(char* frase){                                                  //Testa para termino do programa
     if(strlen(frase) == 4){
         if(frase[0] == 'F' && frase[1] == 'I' && frase[2] == 'M'){
             return 0;

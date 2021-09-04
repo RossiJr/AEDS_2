@@ -1,17 +1,11 @@
-
-/*
- *  ARRUMAR ERRO COM A KEY E TYPECASTING E
- *  TRANSFORMAR ARRAY DE CHAR PARA STRING
- *
- */
-class quest{
+class e3{
     public static void charFy(char[] stringVetor, String word){         //Transforma a string em um vetor de caracteres
         for(int i=0; i<word.length(); i++){
             stringVetor[i] = word.charAt(i);
         }
     }
 
-    public static void ciframento(char[] word, int tamanho, int KEY){
+    public static void ciframento(char[] word, int tamanho, int KEY){   //Adiciona o valor da variavael key a cada char da string word
         for(int i=0; i<tamanho; i++)
             word[i]+=KEY;
     }
