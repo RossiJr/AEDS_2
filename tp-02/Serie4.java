@@ -1,5 +1,3 @@
-/*package br.com.exerciciosTP2;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -30,7 +28,7 @@ class Serie4 {
 	/*
     * Efetua uma pesquisa binaria para encontrar cada termo da lista "nomeInput" na lista de objetos "listaObj". Quando a variavel "html" for true, a pesquisa sera
     * com um nome .html - Quando for false, um nome sem .html e com espacos.
-    *//*
+    */
     public static int comparacao(String nomeInput, List<Serie> listaObj){
         boolean boo = false;
         int comparacoes = 0;
@@ -123,7 +121,4 @@ class Serie4 {
         bf.close();
 
 	}
-
-	
 }
-*/
