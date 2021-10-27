@@ -1,3 +1,5 @@
+/*package br.com.exerciciosTP2;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -5,24 +7,24 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class Serie{
-    private String nome;
-    
-    public Serie(String nome){
-        this.nome = nome;
-    }
-
-    public String getNome(){
-        return nome;
-    }
-}
+//class Serie{
+//    private String nome;
+//    
+//    public Serie(String nome){
+//        this.nome = nome;
+//    }
+//
+//    public String getNome(){
+//        return nome;
+//    }
+//}
 
 class Quest3{
     /*
     *
-    *	Efetua uma busca pela lista, retornando o número de comparações
+    *	Efetua uma busca pela lista, retornando 
     * 
-    */
+    *//*
     public static int comparacao(String nomeInput, List<Serie> listaObj){
         int comparacoes = 0;
     	boolean boo = false;
@@ -41,10 +43,10 @@ class Quest3{
         System.out.println("N"+(char)195+"O");
         boo = false;
         return comparacoes+1;
-    }
+    }*/
     /*
      * Trata a string nome, retirando o .html do final e substituindo '_' por ' '
-     */
+     *//*
     public static String limparNome(String nome) {
     	nome = nome.replace('_', ' ');
     	nome = nome.substring(0, nome.length()-5);
@@ -91,3 +93,4 @@ class Quest3{
 
 	
 }
+*/
